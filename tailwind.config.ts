@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
 
 export default {
@@ -27,9 +26,7 @@ export default {
 				"accent-2": "var(--theme-accent-2)",
 			},
 			fontFamily: {
-				// Add any custom fonts here
-				sans: [...fontFamily.sans],
-				serif: [...fontFamily.serif],
+				'poppins': ['Poppins', 'sans-serif']
 			},
 			transitionProperty: {
 				height: "height",
